@@ -68,15 +68,20 @@ def show_top_ngrams(n_gram: dict, k: int):
 def main():
     k, n = input_nums()
     string = input_string()
+
     words = get_words_list(string)
     words_amount = get_words_amount(words)
+
     print("Words amount: " + str(words_amount))
     average_words_amount = get_average_words_amount(words, words_amount)
+
     print("Average words amount: " + str(average_words_amount))
     median_words_amount = get_median_words_amount(words_amount)
+
     print("Median words amount: " + str(median_words_amount))
     n_grams = get_ngrams(words, string, n)
     show_top_ngrams(n_grams, k)
 
 
-main()
+if __name__ == '__main__':
+    main()
