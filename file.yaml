@@ -1,0 +1,27 @@
+DTO_TYPE: "func"
+name: "test_func"
+globals:
+  DTO_TYPE: "dict"
+code: 
+  DTO_TYPE: "code"
+  fields:
+    DTO_TYPE: "dict"
+    co_argcount: 1
+    co_cellvars: []
+    co_code: "7c00640113005300"
+    co_consts: 
+      - null
+      - 2
+    co_filename: "/home/sakovnv/PycharmProjects/ISP-Lab-2/test/tested_data.py"
+    co_firstlineno: 22
+    co_flags: 67
+    co_freevars: []
+    co_kwonlyargcount: 0
+    co_lnotab: "0001"
+    co_name: "test_func"
+    co_names: []
+    co_nlocals: 1
+    co_posonlyargcount: 0
+    co_stacksize: 2
+    co_varnames: 
+      - "num"
